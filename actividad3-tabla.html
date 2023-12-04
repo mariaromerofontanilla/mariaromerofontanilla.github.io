@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tabla</title>
+	<style type="text/css">
+		#contenedor {
+		    border: solid 1px black;
+		    width: 300px;
+		    text-align: center;
+		    margin: auto;
+		    padding: 1px;
+			}
+		#columna1, #columna2, #columna3 {
+		    display: table-cell;
+		    border:  solid 1px black;
+		    margin: 1px;
+		    padding: 10px;
+			}
+		div {
+			border:  solid 1px;
+			border-spacing: 2px;
+		}
+		.colum1, .colum2, .colum3 {
+			display: table-cell;
+		    border: solid 1px black;
+		    padding: 10px;
+
+		}
+		.tab {
+			border: solid 1px black;
+		    width: 300px;
+		    text-align: center;
+		    margin: auto;
+		    padding: 1px;
+		}
+
+	</style>
+</head>
+<body>
+	<table id="t1" border="1" width="50%" align="center" cellpadding="10px">
+    <tr>
+        <td>Tutoriales En Linea 1</td>
+        <td>Tutoriales En Linea 2</td>
+        <td>Tutoriales En Linea 3</td>
+    </tr>
+    <tr>
+        <td>Tutoriales En Linea 1</td>
+        <td>Tutoriales En Linea 2</td>
+        <td>Tutoriales En Linea 3</td>
+    </tr>
+    </table>
+    <hr>
+    <table class="tab" id="t1" border="1">
+    <tr>
+        <td class="colum1">Tutoriales En Linea 1</td>
+        <td class="colum2">Tutoriales En Linea 2</td>
+        <td class="colum3">Tutoriales En Linea 3</td>
+    </tr>
+    <tr>
+        <td class="colum1">Tutoriales En Linea 1</td>
+        <td class="colum2">Tutoriales En Linea 2</td>
+        <td class="colum3">Tutoriales En Linea 3</td>
+    </tr>
+    </table>
+    <hr>
+    <div id="contenedor">
+        <div id="columna1">Tutoriales En Linea 1</div>
+        <div id="columna2">Tutoriales En Linea 2</div>
+        <div id="columna3">Tutoriales En Linea 3</div>
+    <div>
+        <div id="columna1">Tutoriales En Linea 1</div>
+        <div id="columna2">Tutoriales En Linea 2</div>
+        <div id="columna3">Tutoriales En Linea 3</div>
+    </div>
+	</div>
+	<hr>
+
+</body>
+</html>
